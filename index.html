@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/animacao.js"></script>
+    <script src="JS/teclado.js"></script>
+    <script src="JS/colisor.js"></script>
+    <script src="JS/fundo.js"></script>
+    <script src="JS/nave.js"></script>
+    <script src="JS/ovni.js"></script>
+    <script src="JS/tiro.js"></script>
+    <script src="JS/spritesheet.js"></script>
+    <script src="JS/explosao.js"></script>
+    <script src="JS/painel.js"></script>
+</head>
+<body>
+    <div id="centralizaCanvas">
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+    <a id="link_jogar" href="javascript: iniciarJogo()">Jogar</a>
+    <div id="informacoes">
+        <h3>Comandos</h3>
+        <p>
+            Setas: movimento <br>
+            Espaço: tiro<br>
+            Enter: pausa
+        </p>
+    </div>
+    <script src="JS/engine.js"></script>
+</body>
+</html>

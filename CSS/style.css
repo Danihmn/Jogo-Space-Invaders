@@ -1,0 +1,50 @@
+body{
+    /*Deixar o fundo escuro*/
+    background-color:silver;
+}
+
+#canvas{
+    /*Mudar o radius do canvas*/
+    border-radius: 1rem;
+}
+
+#centralizaCanvas{
+    /*Centralizar o canvas no meio*/
+    display: flex;
+    justify-content: center;
+}
+
+#link_jogar {
+    /*inicia oculto*/
+    display: none;
+
+    /*cores e fundo*/
+    color: yellow;
+    background: url(IMG/botao-jogar.png);
+
+    /*Fonte*/
+    font-size: 20px;
+    font-family: sans-serif;
+
+    /*Sem sublinhado e com sombra*/
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+
+    /*Posicionamento*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /*A imagem do botao é 72x72, descontamos os paddings*/
+    width: 52px;
+    height: 52px;
+    padding: 23px 10px;
+}
+
+#informacoes{
+    /*Trazer para o centro*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
